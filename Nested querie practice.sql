@@ -1,0 +1,4 @@
+-- nested-queries
+-- select productID, productName, unitPrice 
+-- from products
+-- where unitPrice = (select max(unitPrice)from products);
