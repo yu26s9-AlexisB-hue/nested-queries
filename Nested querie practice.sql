@@ -16,3 +16,9 @@ where productID =
 where productName = 'Sasquatch Ale');
 
 */
+
+select FirstName, lastName
+from Employees
+where EmployeeID =
+(select employeeID from orders
+where orderId = 10266);
